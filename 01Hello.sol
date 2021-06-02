@@ -1,7 +1,9 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract Hello {
+        uint value;
         function hello() public pure  returns(string memory){
-        return ("Hello World ");
+        return ("Hello World 2 ");
+
     }
 }
