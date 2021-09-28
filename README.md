@@ -13,7 +13,6 @@ yarn add --dev "hardhat@^2.6.4"  "ethereum-waffle@^3.0.0" "chai@^4.2.0" "@nomicl
 npx hardhat accounts
 npx hardhat compile
 npx hardhat clean
-
 npx hardhat test
 npx hardhat node
 node scripts/deploy.js
