@@ -8,7 +8,7 @@ Try running some of the following tasks:
 
 ```shell
 yarn add hardhat dotenv
-yarn add --dev "hardhat@^2.6.4" "@nomiclabs/hardhat-waffle@^2.0.0" "ethereum-waffle@^3.0.0" "chai@^4.2.0" "@nomiclabs/hardhat-ethers@^2.0.0" "ethers@^5.0.0" "@nomiclabs/hardhat-waffle"
+yarn add --dev "hardhat@^2.6.4"  "ethereum-waffle@^3.0.0" "chai@^4.2.0" "@nomiclabs/hardhat-ethers@^2.0.0" "ethers@^5.0.0" "@nomiclabs/hardhat-waffle"
 
 npx hardhat accounts
 npx hardhat compile
@@ -19,4 +19,3 @@ node scripts/sample-script.js
 npx hardhat help
 npx hardhat run scripts/deploy.js --network ropsten 
 ```
-fatal: unable to access 'https://github.com/ethereumjs/ethereumjs-abi.git/': Failed to connect to github.com port 443: Timed out
